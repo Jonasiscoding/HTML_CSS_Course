@@ -4,24 +4,55 @@
         <title>YouTube.com Clone</title>
         <style>
             .thumbnail{
-                width: 500px;
+                width: 300px;
                 display: block;
+            }
+
+            .search_bar{
+                display: block;
+            }
+
+            .video_title{
+                width: 300px;
+            }
+
+            .video_preview{
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
             }
         </style>
     </head>
     <body>
         <input class="searchbar" type="text" placeholder="Search">
 
-        <img class="thumbnail" src="thumbnails/C++ Beispielprogramm1.PNG">
+        <div class="video_preview">
+            <img class="thumbnail" src="thumbnails/C++ Beispielprogramm1.PNG">
 
-        <p class="video_title">
-            This is the one C++ tutorial you'll need!!!
-        </p>
-        <p class="video_author">
-            Jonasiscoding &#10003;
-        </p>
-        <p class="video_stats">
-            3.4M views &#183; 6 months ago
-        </p>
+            <p class="video_title">
+                This is the one C++ tutorial you'll need!!!
+            </p>
+            <p class="video_author">
+                Jonasiscoding &#10003;
+            </p>
+            <p class="video_stats">
+                3.4M views &#183; 6 months ago
+            </p>
+        </div>
+
+        <div class="video_preview">
+            <img class="thumbnail" src="thumbnails/C++ Beispielprogramm1.PNG">
+
+            <p class="video_title">
+                This is the one C++ tutorial you'll need!!!
+            </p>
+            <p class="video_author">
+                Jonasiscoding &#10003;
+            </p>
+            <p class="video_stats">
+                3.4M views &#183; 6 months ago
+            </p>
+        </div>
     </body>
 </html>
